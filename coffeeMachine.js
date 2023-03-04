@@ -19,14 +19,6 @@ function printOutSupplies(){
       $${supplies.money} of money\n`);
           }
 
-    function substractSupplies(supplies, coffeeName) {
-      let sub = {};
-      Object.keys(coffeeName).forEach(key => {
-        if (supplies.hasOwnProperty(key)) {
-          sub[key] = supplies[key] - coffeeName[key];}  
-      });
-    }
-
   function makeCoffee(userCoffee) {
       
           userCoffee -= 1;
